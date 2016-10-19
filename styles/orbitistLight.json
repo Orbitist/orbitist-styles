@@ -317,7 +317,7 @@
             "source": "mapbox",
             "id": "road_major",
             "paint": {
-                "line-color": "#fff",
+                "line-color": "#c5c6c6",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
