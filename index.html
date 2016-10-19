@@ -9,13 +9,15 @@
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
+        #map-selects { position:fixed; top:0; left:0; }
     </style>
 </head>
 <body>
-<h1 id="mapTitle">View Orbtist Map Styles as they are built:</h1>
-<p><button onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDawn.json')">Orbitist Dawn</button></p>
-<p><button onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistLight.json')">Orbitist Light</button></p>
-
+    <div id="map-selects">
+        <h1>View Orbtist Map Styles as they are built:</h1>
+        <p><button onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDawn.json')">Orbitist Dawn</button></p>
+        <p><button onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistLight.json')">Orbitist Light</button></p>
+    </div>
 
 
 
