@@ -18,7 +18,7 @@
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#dedede"
+                "background-color": "#f2e5d4"
             },
             "interactive": true
         },
@@ -33,7 +33,7 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#d2edae",
+                "fill-color": "#c5dac6",
                 "fill-opacity": 0.75
             },
             "interactive": true
@@ -49,7 +49,7 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "#d2edae"
+                "fill-color": "#c5dac6"
             },
             "interactive": true
         },
@@ -73,7 +73,7 @@
                 ]
             ],
             "paint": {
-                "line-color": "#a0cfdf",
+                "line-color": "#acbcc9",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -96,7 +96,7 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "#a0cfdf"
+                "fill-color": "#acbcc9"
             },
             "interactive": true
         },
