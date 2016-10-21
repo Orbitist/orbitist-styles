@@ -33,7 +33,7 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#aaa",
+                "fill-color": "#ddd",
                 "fill-opacity": 0.75
             },
             "interactive": true
@@ -49,7 +49,7 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "#aaa"
+                "fill-color": "#ddd"
             },
             "interactive": true
         },
@@ -73,7 +73,7 @@
                 ]
             ],
             "paint": {
-                "line-color": "#bbb",
+                "line-color": "#ccc",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -96,7 +96,7 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "#bbb"
+                "fill-color": "#ddd"
             },
             "interactive": true
         },
@@ -106,7 +106,7 @@
             "source": "mapbox",
             "source-layer": "building",
             "paint": {
-                "fill-color": "#ccc"
+                "fill-color": "#ddd"
             },
             "interactive": true
         },
@@ -148,7 +148,7 @@
             "source": "mapbox",
             "id": "tunnel_minor",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -204,7 +204,7 @@
             "source": "mapbox",
             "id": "tunnel_major",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -264,7 +264,7 @@
             "source": "mapbox",
             "id": "road_minor",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -317,7 +317,7 @@
             "source": "mapbox",
             "id": "road_major",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -372,7 +372,7 @@
             "source": "mapbox",
             "id": "bridge_minor case",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.6,
                     "stops": [
@@ -437,7 +437,7 @@
             "source": "mapbox",
             "id": "bridge_major case",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.6,
                     "stops": [
@@ -505,7 +505,7 @@
             "source": "mapbox",
             "id": "bridge_minor",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -557,7 +557,7 @@
             "source": "mapbox",
             "id": "bridge_major",
             "paint": {
-                "line-color": "#ddd",
+                "line-color": "#eee",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
