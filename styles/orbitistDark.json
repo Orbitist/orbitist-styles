@@ -3,7 +3,7 @@
     "name": "Orbitist Dark",
     "sources": {
         "mapbox": {
-            "url": "http://labs.orbitist.com/orbitist-styles/server.json",
+            "url": "https://tiles.orbitist.com/designs/serve.json",
             "type": "vector"
         }
     },
