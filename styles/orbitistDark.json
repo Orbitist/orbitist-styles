@@ -1,24 +1,10 @@
 {
-    "version": 8,
-    "name": "Orbitist Dark",
-    "sources": {
-        "mapbox": {
-            "url": "https://tiles.orbitist.com/designs/serve.json",
-            "type": "vector"
-        }
-    },
-    "sprite": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/sprites/basic-v9",
-    "glyphs": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/glyphs/{fontstack}/{range}.pbf",
-    "metadata": {
-        "mapbox:autocomposite": true,
-        "mapbox:type": "template"
-    },
     "layers": [
         {
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#999"
+                "background-color": "#555555"
             },
             "interactive": true
         },
@@ -33,8 +19,8 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#111",
-                "fill-opacity": 0.75
+                "fill-color": "#777777",
+                "fill-opacity": 1
             },
             "interactive": true
         },
@@ -49,7 +35,7 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "#111"
+                "fill-color": "#777777"
             },
             "interactive": true
         },
@@ -73,7 +59,7 @@
                 ]
             ],
             "paint": {
-                "line-color": "#222",
+                "line-color": "#666666",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -96,7 +82,7 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "#222"
+                "fill-color": "#666666"
             },
             "interactive": true
         },
@@ -106,7 +92,7 @@
             "source": "mapbox",
             "source-layer": "building",
             "paint": {
-                "fill-color": "#333"
+                "fill-color": "#656565"
             },
             "interactive": true
         },
@@ -148,7 +134,7 @@
             "source": "mapbox",
             "id": "tunnel_minor",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#444444",
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -204,7 +190,7 @@
             "source": "mapbox",
             "id": "tunnel_major",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#333333",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -264,7 +250,7 @@
             "source": "mapbox",
             "id": "road_minor",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#333333",
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -317,7 +303,7 @@
             "source": "mapbox",
             "id": "road_major",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#444444",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -372,7 +358,7 @@
             "source": "mapbox",
             "id": "bridge_minor case",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#444444",
                 "line-width": {
                     "base": 1.6,
                     "stops": [
@@ -437,7 +423,7 @@
             "source": "mapbox",
             "id": "bridge_major case",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#333333",
                 "line-width": {
                     "base": 1.6,
                     "stops": [
@@ -505,7 +491,7 @@
             "source": "mapbox",
             "id": "bridge_minor",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#444444",
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -557,7 +543,7 @@
             "source": "mapbox",
             "id": "bridge_major",
             "paint": {
-                "line-color": "#444",
+                "line-color": "#333333",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -605,7 +591,7 @@
             "source": "mapbox",
             "id": "admin_country",
             "paint": {
-                "line-color": "#555",
+                "line-color": "#222222",
                 "line-width": {
                     "base": 1.3,
                     "stops": [
@@ -665,9 +651,9 @@
             "source": "mapbox",
             "id": "poi_label",
             "paint": {
-                "text-color": "#111",
+                "text-color": "#777777",
                 "text-halo-width": 1,
-                "text-halo-color": "rgba(255,255,255,0.75)",
+                "text-halo-color": "rgba(0,0,0,0.35)",
                 "text-halo-blur": 1
             },
             "source-layer": "poi_label"
@@ -717,8 +703,8 @@
             "source": "mapbox",
             "id": "road_major_label",
             "paint": {
-                "text-color": "#111",
-                "text-halo-color": "rgba(255,255,255,0.75)",
+                "text-color": "#777777",
+                "text-halo-color": "rgba(0,0,0,0.75)",
                 "text-halo-width": 2
             },
             "source-layer": "road_label"
@@ -767,8 +753,8 @@
             "source": "mapbox",
             "id": "place_label_other",
             "paint": {
-                "text-color": "#111",
-                "text-halo-color": "rgba(255,255,255,0.75)",
+                "text-color": "#777777",
+                "text-halo-color": "rgba(000,000,0,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
             },
@@ -813,8 +799,8 @@
             "source": "mapbox",
             "id": "place_label_city",
             "paint": {
-                "text-color": "#111",
-                "text-halo-color": "rgba(255,255,255,0.75)",
+                "text-color": "#999999",
+                "text-halo-color": "rgba(0,0,0,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
             },
@@ -851,12 +837,29 @@
             "source": "mapbox",
             "id": "country_label",
             "paint": {
-                "text-color": "#111",
-                "text-halo-color": "rgba(255,255,255,0.75)",
+                "text-color": "#777777",
+                "text-halo-color": "rgba(0,0,0,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
             },
             "source-layer": "country_label"
         }
-    ]
+    ],
+    "sprite": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/sprites/basic-v9",
+    "glyphs": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/glyphs/{fontstack}/{range}.pbf",
+    "created": "2016-10-22T12:06:35.150Z",
+    "modified": "2016-10-23T20:17:15.781Z",
+    "name": "Basic",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template"
+    },
+    "version": 8,
+    "sources": {
+        "mapbox": {
+            "url": "https://tiles.orbitist.com/designs/serve.json",
+            "type": "vector"
+        }
+    },
+    "id": "orbitistDark"
 }
