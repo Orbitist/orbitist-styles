@@ -10,6 +10,8 @@
     
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
     <style>
         body { margin:0; padding:0; }
         #map { position:fixed; top:0; bottom:0; width:100%; z-index:0; }
@@ -18,11 +20,11 @@
 </head>
 <body>
     <div id="map-selects" class="btn-group btn-group-lg">
-        <button type="button" class="btn btn-default btn-small" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDawn.json')">Orbitist Dawn</button>
-        <button type="button" class="btn btn-default btn-small" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistLight.json')">Orbitist Light</button>
-        <button type="button" class="btn btn-default btn-small" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDark.json')">Orbitist Dark</button>
-        <button type="button" class="btn btn-default btn-small" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDusk.json')">Orbitist Dusk</button>
-        <button type="button" class="btn btn-default btn-small" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistStreets.json')">Orbitist Streets</button>
+        <button type="button" class="btn btn-default btn-xs" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDawn.json')">Orbitist Dawn</button>
+        <button type="button" class="btn btn-default btn-xs" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistLight.json')">Orbitist Light</button>
+        <button type="button" class="btn btn-default btn-xs" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDark.json')">Orbitist Dark</button>
+        <button type="button" class="btn btn-default btn-xs" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistDusk.json')">Orbitist Dusk</button>
+        <button type="button" class="btn btn-default btn-xs" onclick="changemap('http://labs.orbitist.com/orbitist-styles/styles/orbitistStreets.json')">Orbitist Streets</button>
     </div></!-- Buttons -->
 
 
