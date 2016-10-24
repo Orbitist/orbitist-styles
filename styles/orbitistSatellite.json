@@ -134,7 +134,8 @@
             "source": "mapbox",
             "source-layer": "building",
             "paint": {
-                "fill-color": "#d6d6d6"
+                "fill-color": "#d6d6d6",
+                "fill-opacity": 0
             },
             "interactive": true,
             "layout": {
