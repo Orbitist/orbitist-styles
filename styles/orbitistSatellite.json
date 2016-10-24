@@ -181,6 +181,7 @@
             "id": "tunnel_minor",
             "paint": {
                 "line-color": "#efefef",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -237,6 +238,7 @@
             "id": "tunnel_major",
             "paint": {
                 "line-color": "#fff",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -297,6 +299,7 @@
             "id": "road_minor",
             "paint": {
                 "line-color": "#efefef",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -350,6 +353,7 @@
             "id": "road_major",
             "paint": {
                 "line-color": "#fff",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.4,
                     "stops": [
@@ -405,6 +409,7 @@
             "id": "bridge_minor case",
             "paint": {
                 "line-color": "#dedede",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.6,
                     "stops": [
@@ -470,6 +475,7 @@
             "id": "bridge_major case",
             "paint": {
                 "line-color": "#dedede",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.6,
                     "stops": [
@@ -538,6 +544,7 @@
             "id": "bridge_minor",
             "paint": {
                 "line-color": "#efefef",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.55,
                     "stops": [
@@ -590,6 +597,7 @@
             "id": "bridge_major",
             "paint": {
                 "line-color": "#fff",
+                "line-opacity": 0.1,
                 "line-width": {
                     "base": 1.4,
                     "stops": [
