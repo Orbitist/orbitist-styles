@@ -72,7 +72,7 @@
   },
   "sources": {
     "natural_earth_shaded_relief": {
-      "maxzoom": 6,
+      "maxzoom": 21,
       "tileSize": 256,
       "tiles": [
         "https://2.aerial.maps.cit.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8?app_id=5djSnGL153Z0CymIoP1Y&app_code=-GBVZ4AnbtbC2VBzFY3oYQ"
