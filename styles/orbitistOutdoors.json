@@ -35,7 +35,7 @@
   "pitch": 0,
   "light": {"intensity": 0.25, "color": "hsl(0, 0%, 100%)"},
   "sources": {
-    "composite": {
+    "mapbox": {
       "url": "https://labs.orbitist.com/orbitist-styles/serve.json",
       "type": "vector"
     }
